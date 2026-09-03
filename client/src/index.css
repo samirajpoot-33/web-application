@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --hero-bg: #C2B3A3;
+  --dark-bg: #1A1A1A;
+  --gold-accent: #A67C52;
+  --gold-bright: #D4AF37;
+  --charcoal: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1A1A1A;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F9E7B9 0%, #D4AF37 40%, #AA771C 70%, #FDF4CD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
